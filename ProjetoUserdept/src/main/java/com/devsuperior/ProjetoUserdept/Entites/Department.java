@@ -15,12 +15,10 @@ public class Department {
     private Long id;
     private String name;
 
-    User users;
 
-    public Department(Long id, String name, User users) {
+    public Department(Long id, String name) {
         this.id = id;
         this.name = name;
-        this.users = users;
     }
 
     public Long getId() {
@@ -37,14 +35,6 @@ public class Department {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public User getUsers() {
-        return users;
-    }
-
-    public void setUsers(User users) {
-        this.users = users;
     }
 
     @Override
