@@ -16,6 +16,10 @@ public class Department {
     private String name;
 
 
+    public Department(){
+
+    }
+    
     public Department(Long id, String name) {
         this.id = id;
         this.name = name;
