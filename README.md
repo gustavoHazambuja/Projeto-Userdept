@@ -20,7 +20,7 @@ O projeto foi feito para treinar e praticar o framework Spring Boot.
 ## Back end
 - Java
 - Spring Boot
-- JPA
+- JPA / Hibernate
 - Maven
 ## Implantação em produção
 - Banco de dados: Postgresql
